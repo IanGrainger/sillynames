@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sillynames/static/css/main.2462828c.css",
+    "main.js": "/sillynames/static/js/main.680a0ea1.js",
+    "index.html": "/sillynames/index.html",
+    "main.2462828c.css.map": "/sillynames/static/css/main.2462828c.css.map",
+    "main.680a0ea1.js.map": "/sillynames/static/js/main.680a0ea1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2462828c.css",
+    "static/js/main.680a0ea1.js"
+  ]
+}

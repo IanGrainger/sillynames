@@ -1,4 +1,4 @@
-export const nameLookups = [
+export const nameLookups: { [letter: string]: string }[] = [
   {
     A: 'Peanut butter',
     B: 'Toilet',

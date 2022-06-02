@@ -39,24 +39,14 @@ export default function App() {
         </Form.Group>
         <h2>Name</h2>
         <div style={{ fontSize: '20px' }}>
-          {
-            [firstName, middleName, lastName]
-              .map(
-                (name, i) =>
-                  nameLookups[i][name?.toUpperCase()?.substring(0, 1)] ?? ''
-              )
-              .filter((x) => !!x)
-              .join(' ')
-            // (nameLookups[0][firstName?.toUpperCase()?.substring(0, 1)] ?? '') +
-            //   ' ' +
-            //   (nameLookups[1][middleName?.toUpperCase()?.substring(0, 1)] ?? '') +
-            //   ' ' +
-            //   (nameLookups[2][lastName?.toUpperCase()?.substring(0, 1)] ?? '')
-          }
+          {[firstName, middleName, lastName]
+            .map(
+              (name, i) =>
+                nameLookups[i][name?.toUpperCase()?.substring(0, 1)] ?? ''
+            )
+            .filter((x) => !!x)
+            .join(' ')}
         </div>
-        {/* <Button variant="primary" type="submit">
-          Submit
-        </Button> */}
       </Form>
     </Container>
   );

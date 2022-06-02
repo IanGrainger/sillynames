@@ -1,12 +1,12 @@
-import * as React from 'react';
 import './style.css';
-import { Form, Button, Container } from 'react-bootstrap';
+import { Form, Container } from 'react-bootstrap';
 import { nameLookups } from './nameLookup';
+import { useState } from 'react';
 
 export default function App() {
-  const [firstName, setFirstName] = React.useState('');
-  const [middleName, setMiddleName] = React.useState('');
-  const [lastName, setLastName] = React.useState('');
+  const [firstName, setFirstName] = useState('');
+  const [middleName, setMiddleName] = useState('');
+  const [lastName, setLastName] = useState('');
 
   return (
     <Container>
